@@ -1,0 +1,23 @@
+{
+  "name": "jekyllish",
+  "version": "0.1.0",
+  "description": "A basic flat file blog generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Rohan Orton",
+  "license": "MIT",
+  "dependencies": {
+    "app-root-dir": "^1.0.2",
+    "async": "^1.2.1",
+    "chokidar": "^1.0.3",
+    "js-yaml": "^3.3.1",
+    "marked": "^0.3.3",
+    "pygmentize-bundled": "^2.3.0"
+  }
+}
